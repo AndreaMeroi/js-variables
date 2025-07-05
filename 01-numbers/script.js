@@ -107,3 +107,19 @@ console.log(cityNameConcat); // Output: "New York City"
 // Trasforma tutto in maiscuolo la stringa della variabile hello
 const upperCaseHello = hello.toUpperCase(hello);
 console.log(upperCaseHello); // Output: "HELLO"
+
+
+const hour = 20
+
+
+if (hour < 10) {
+    greeting = "Good morning";
+} else if (hour < 18) {
+    greeting = "Good day";
+} else {
+    greeting = "Good evening";
+}
+
+console.log(greeting)
+
+
